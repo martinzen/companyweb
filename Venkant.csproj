@@ -1,0 +1,85 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Views\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\images\apple-touch-icon.png" />
+    <None Remove="Views\images\apple-touch-icon-114x114.png" />
+    <None Remove="Views\images\apple-touch-icon-72x72.png" />
+    <None Remove="Views\images\favicon.png" />
+    <None Remove="Views\images\img\about1.jpg" />
+    <None Remove="Views\images\img\header.jpg" />
+    <None Remove="Views\images\img\hover_icon.png" />
+    <None Remove="Views\images\img\loading.gif" />
+    <None Remove="Views\images\img\next.png" />
+    <None Remove="Views\images\img\prev.png" />
+    <None Remove="Views\images\img\service_hover.jpg" />
+    <None Remove="Views\images\img\single_service1.jpg" />
+    <None Remove="Views\images\img\single_service2.jpg" />
+    <None Remove="Views\images\img\slider_man.png" />
+    <None Remove="Views\images\img\slider1.jpg" />
+    <None Remove="Views\images\img\slider2.jpg" />
+    <None Remove="Views\images\img\slider3.jpg" />
+    <None Remove="Views\images\img\team1.jpg" />
+    <None Remove="Views\images\img\team2.jpg" />
+    <None Remove="Views\images\img\team3.jpg" />
+    <None Remove="Views\images\img\team4.jpg" />
+    <None Remove="Views\images\img\tes1.jpg" />
+    <None Remove="Views\images\img\tes3.jpg" />
+    <None Remove="Views\images\img\testimonial.jpg" />
+    <None Remove="Views\images\img\touch.jpg" />
+    <None Remove="Views\images\img\touch_boder.png" />
+    <None Remove="Views\images\img\video.jpg" />
+    <None Remove="Views\images\img\work-1.jpg" />
+    <None Remove="Views\images\img\work-2.jpg" />
+    <None Remove="Views\images\img\work-3.jpg" />
+    <None Remove="Views\images\img\work-4.jpg" />
+    <None Remove="Views\images\img\work-5.jpg" />
+    <None Remove="Views\images\img\work-6.jpg" />
+    <None Remove="Views\images\logo.png" />
+    <None Remove="Views\images\marker.png" />
+    <None Remove="Views\images\pre_loader.gif" />
+    <None Remove="Views\images\search.png" />
+    <None Remove="Views\images\img\about2.jpg" />
+    <None Remove="Views\images\img\blog_post.jpg" />
+    <None Remove="Views\images\img\blog1.jpg" />
+    <None Remove="Views\images\img\blog2.jpg" />
+    <None Remove="Views\images\img\blog3.jpg" />
+    <None Remove="Views\images\img\callto.jpg" />
+    <None Remove="Views\images\img\choose.jpg" />
+    <None Remove="Views\images\img\client-1.png" />
+    <None Remove="Views\images\img\client-2.png" />
+    <None Remove="Views\images\img\client-3.png" />
+    <None Remove="Views\images\img\client-4.png" />
+    <None Remove="Views\images\img\client-5.png" />
+    <None Remove="Views\images\img\client-6.png" />
+    <None Remove="Views\images\img\close.png" />
+    <None Remove="Views\images\img\comment.jpg" />
+    <None Remove="Views\images\img\down_arrow.png" />
+    <None Remove="Views\images\img\footer_logo.png" />
+    <None Remove="Views\images\img\full_width.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Models\MockClientRepository.cs" />
+    <Content Remove="Views\Home\Index %28copy%29.cshtml" />
+    <Content Remove="Views\Home\Index %28copy%29.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Condition="'$(ExcludeConfigFilesFromBuildOutput)'=='true'" Update="wwwroot\Properties\launchSettings.json">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </Content>
+    <Content Condition="'$(ExcludeConfigFilesFromBuildOutput)'=='true'" Update="Properties\launchSettings.json">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
