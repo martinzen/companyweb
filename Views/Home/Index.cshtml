@@ -1,4 +1,4 @@
-﻿
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
     <!-- ::::::::::::::::::::::::::: Start: Preloader section ::::::::::::::::::::::::::: -->
     <div id="preloader"></div>
     <!-- ::::::::::::::::::::::::::: End: Preloader section ::::::::::::::::::::::::::: -->
@@ -11,6 +11,7 @@
     
 }
     
+
 
 
     <!-- Start: About Section
@@ -50,8 +51,10 @@
                             <a href="#">
                                 <h3>laptop Services</h3></a>
                             <p>We can replace the screen in the same day. For any hardware issues on the motherboard of the laptop we can repair it in the same day or the next day prior. You can run some <strong>tests</strong> on <strong>your computer</strong> by <strong>ourself</strong>. </p>
-                           <a class="abt_readmore" href="#">Read more</a>
-                           
+                          
+                            <a class="abt_readmore"  asp-action="ourService">Read more Home</a>
+                            
+                            
                         </div>
                     </div>
                     <div class="about_box">

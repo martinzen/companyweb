@@ -23,10 +23,14 @@ namespace Venkant.Controllers
 
         public ViewResult Index()
         {
-
             return View();
         }
         
+        
+        public ViewResult ourService()
+        {
+            return View();
+        }
         
     }
 }

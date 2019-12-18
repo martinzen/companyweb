@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Services" />
+    <Folder Include="Page\OurService" />
+    <Folder Include="Views" />
     <Folder Include="wwwroot\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
@@ -82,5 +83,12 @@
     <Content Condition="'$(ExcludeConfigFilesFromBuildOutput)'=='true'" Update="Properties\launchSettings.json">
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\OurService\ourService.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\OurService\ourService.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\OurService\ourService.cshtml" />
   </ItemGroup>
 </Project>
