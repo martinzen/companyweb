@@ -32,7 +32,7 @@ namespace Venkant
 
             
 
-
+         //   app.UseHttpsRedirection();
             app.UseRouting();
             app.UseStaticFiles();
             // 2. In the start menue we allcate what we will be doing 

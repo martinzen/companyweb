@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martin/Projects/Venkant/Venkant/Venkant.csproj",
+      "projectUniqueName": "/Users/martin/RiderProjects/companyweb/Venkant.csproj",
       "projectName": "Venkant",
-      "projectPath": "/Users/martin/Projects/Venkant/Venkant/Venkant.csproj",
+      "projectPath": "/Users/martin/RiderProjects/companyweb/Venkant.csproj",
       "packagesPath": "/Users/martin/.nuget/packages/",
-      "outputPath": "/Users/martin/Projects/Venkant/Venkant/obj/",
+      "outputPath": "/Users/martin/RiderProjects/companyweb/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
