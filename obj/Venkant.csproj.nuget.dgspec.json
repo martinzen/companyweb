@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/martin/RiderProjects/companyweb/Venkant.csproj": {}
+    "/Users/martin/RiderProjects/companywebTest/Venkant.csproj": {}
   },
   "projects": {
-    "/Users/martin/RiderProjects/companyweb/Venkant.csproj": {
+    "/Users/martin/RiderProjects/companywebTest/Venkant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/martin/RiderProjects/companyweb/Venkant.csproj",
+        "projectUniqueName": "/Users/martin/RiderProjects/companywebTest/Venkant.csproj",
         "projectName": "Venkant",
-        "projectPath": "/Users/martin/RiderProjects/companyweb/Venkant.csproj",
+        "projectPath": "/Users/martin/RiderProjects/companywebTest/Venkant.csproj",
         "packagesPath": "/Users/martin/.nuget/packages/",
-        "outputPath": "/Users/martin/RiderProjects/companyweb/obj/",
+        "outputPath": "/Users/martin/RiderProjects/companywebTest/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -38,6 +38,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.435, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
