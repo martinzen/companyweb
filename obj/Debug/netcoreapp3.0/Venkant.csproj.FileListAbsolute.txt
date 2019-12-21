@@ -90,7 +90,6 @@
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Venkant.TagHelpers.output.cache
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Venkant.RazorCoreGenerate.cache
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
-/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/Home/ourService.cshtml.g.cs
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/ourService.cshtml.g.cs
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Venkant.RazorTargetAssemblyInfo.cache
@@ -99,3 +98,6 @@
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Venkant.dll
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Venkant.pdb
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Venkant.csproj.CopyComplete
+/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_LayoutFoter.cshtml.g.cs
+/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/Keyboard.cshtml.g.cs
+/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/Overheating.cshtml.g.cs
