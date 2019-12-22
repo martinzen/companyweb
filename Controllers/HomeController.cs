@@ -26,7 +26,34 @@ namespace Venkant.Controllers
             return View();
         }
         
-      
+        public ActionResult Home(int id)
+        {
+            return new RedirectResult(Url.Action("Index") + "#top");
+        }
         
+        public ActionResult About(int id)
+        {
+            return new RedirectResult(Url.Action("Index") + "#about");
+        }
+        
+        public ActionResult Pricing(int id)
+        {
+            return new RedirectResult(Url.Action("Index") + "#pricing");
+        }
+        
+        public ActionResult Blog(int id)
+        {
+            return new RedirectResult(Url.Action("Index") + "#blog");
+        }
+        
+        public ActionResult Work(int id)
+        {
+            return new RedirectResult(Url.Action("Index") + "#work");
+        }
+        
+        public ActionResult Contact(int id)
+        {
+            return new RedirectResult(Url.Action("Index") + "#contact");
+        }
     }
 }
