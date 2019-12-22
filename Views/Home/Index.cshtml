@@ -1,110 +1,113 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-    <!-- ::::::::::::::::::::::::::: Start: Preloader section ::::::::::::::::::::::::::: -->
-    <div id="preloader"></div>
-    <!-- ::::::::::::::::::::::::::: End: Preloader section ::::::::::::::::::::::::::: -->
-
+<!-- ::::::::::::::::::::::::::: Start: Preloader section ::::::::::::::::::::::::::: -->
+<div id="preloader"></div>
+<!-- ::::::::::::::::::::::::::: End: Preloader section ::::::::::::::::::::::::::: -->
 
 
 @{
-
     Layout = "~/Views/Shared/_Layout.cshtml";
-    
+
 }
-    
 
 
-
-    <!-- Start: About Section
-    ===================== --> 
+<!-- Start: About Section
+===================== -->
 
 
 <section class="about-section" id="about">
-        <div class="container">
-            <!-- Start: Heading -->
-            <div class="base-header">
-                <h3>About <span class="ylow_clr heading_clr_2"> Repair </span> </h3>
-                <p>We will repair you computer, laptop within the same day and most of the time 
-                    we perform the testing onsite and fix the problem in the same day.</p>
-            </div>
-            <!-- End: Heading -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="abut_title">
-                        <h3>WELCOME TO DIGITAL REPAIRING</h3>
-                        <p>We can repair hardware problems that you might have with your desktop 
-                            computers, laptop, MacBook, iMac and all the other computers. We can 
-                            repair any software problems that you might have with your computers 
-                            or any other electronically devices. </p>
-                    </div>
-
-                    <ul class="abut_title_list">
-                        <li><i class="fa fa-arrow-circle-o-right"></i>Laptop and dasktop Repair</li>
-                        <li><i class="fa fa-arrow-circle-o-right"></i>Computer & MAC computers</li>
-                        <li><i class="fa fa-arrow-circle-o-right"></i>Smart phone Software Repair</li>
-                        <li><i class="fa fa-arrow-circle-o-right"></i>Tablet – IPad Software Repair</li>
-                        <li><i class="fa fa-arrow-circle-o-right"></i>WIFI - network problem</li>
-
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <div class="about_box">
-                        <a class="about_box_img" href="#">
-                            <img class="img-responsive" src="~/images/img/about1.jpg" alt="">
-                        </a>
-                        <div class="about_box_inf">
-                            <a href="#">
-                                <h3>laptop Services</h3></a>
-                            <p>We can replace the screen in the same day. For any hardware issues 
-                                on the motherboard of the laptop we can repair it in the same day 
-                                or the next day prior. You can run some <strong>tests</strong> on 
-                                <strong>your computer</strong> by <strong>ourself</strong>. </p>
-                          
-                            <a class="abt_readmore"  asp-controller="OurService" asp-action="ourService">Read more Home</a>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="about_box">
-                        <a class="about_box_img" href="#">
-                            <img class="img-responsive" src="~/images/img/about2.jpg" alt="">
-                        </a>
-                        <div class="about_box_inf">
-                            <a href="#">
-                                <h3>Desktop Services</h3></a>
-                            <p>AnyPCproblem has the fastest turnaround, we always aim to 
-                                solve the problem within the same day. Problems with you internet
-                                connection or device are problems that we will love to have.</p>
-                            <a class="abt_readmore" href="#">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- /. row -->
-            </div>
+    <div class="container">
+        <!-- Start: Heading -->
+        <div class="base-header">
+            <h3>About <span class="ylow_clr heading_clr_2"> Repair </span> </h3>
+            <p>
+                We will repair you computer, laptop within the same day and most of the time
+                we perform the testing onsite and fix the problem in the same day.
+            </p>
         </div>
-        <!-- /. container -->
-    </section>
+        <!-- End: Heading -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="abut_title">
+                    <h3>WELCOME TO DIGITAL REPAIRING</h3>
+                    <p>
+                        We can repair hardware problems that you might have with your desktop
+                        computers, laptop, MacBook, iMac and all the other computers. We can
+                        repair any software problems that you might have with your computers
+                        or any other electronically devices.
+                    </p>
+                </div>
+
+                <ul class="abut_title_list">
+                    <li><i class="fa fa-arrow-circle-o-right"></i>Laptop and dasktop Repair</li>
+                    <li><i class="fa fa-arrow-circle-o-right"></i>Computer & MAC computers</li>
+                    <li><i class="fa fa-arrow-circle-o-right"></i>Smart phone Software Repair</li>
+                    <li><i class="fa fa-arrow-circle-o-right"></i>Tablet – IPad Software Repair</li>
+                    <li><i class="fa fa-arrow-circle-o-right"></i>WIFI - network problem</li>
+
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="about_box">
+                    <a class="about_box_img" href="#">
+                        <img class="img-responsive" src="~/images/img/about1.jpg" alt="">
+                    </a>
+                    <div class="about_box_inf">
+                        <a href="#">
+                            <h3>laptop Services</h3>
+                        </a>
+                        <p>
+                            We can replace the screen in the same day. For any hardware issues
+                            on the motherboard of the laptop we can repair it in the same day
+                            or the next day prior. You can run some <strong>tests</strong> on
+                            <strong>your computer</strong> by <strong>ourself</strong>.
+                        </p>
+
+                        <a class="abt_readmore" asp-controller="OurService" asp-action="ourService">Read more Home</a>
 
 
-
-    
+                    </div>
+                </div>
+                <div class="about_box">
+                    <a class="about_box_img" href="#">
+                        <img class="img-responsive" src="~/images/img/about2.jpg" alt="">
+                    </a>
+                    <div class="about_box_inf">
+                        <a href="#">
+                            <h3>Desktop Services</h3>
+                        </a>
+                        <p>
+                            AnyPCproblem has the fastest turnaround, we always aim to
+                            solve the problem within the same day. Problems with you internet
+                            connection or device are problems that we will love to have.
+                        </p>
+                        <a class="abt_readmore" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /. row -->
+        </div>
+    </div>
+    <!-- /. container -->
+</section>
 
 
 <!-- End: About Section
 ========================= -->
 
 
-
-    <!-- Start:Our Services Section
+<!-- Start:Our Services Section
 ==================================================-->
-   
+
 <section class="service-section">
     <div class="container">
         <!-- Start: Heading -->
         <div class="base-header">
             <h3>OUR <span class="ylow_clr heading_clr_2"> SERVICES </span> </h3>
-            <p>AnyPCproblem has the fastest turnaround, we always aim to solve 
-                the problem within the same day. Problems with you internet connection 
-                or device are problems that we will love to have. </p>
+            <p>
+                AnyPCproblem has the fastest turnaround, we always aim to solve
+                the problem within the same day. Problems with you internet connection
+                or device are problems that we will love to have.
+            </p>
         </div>
         <!-- End: Heading -->
         <div class="row">
@@ -114,12 +117,16 @@
                     <div class="service-item">
                         <div class="icon-serv  icon_desktop"></div>
                         <h5 class="serv-left">Hard Drive Data Recovery</h5>
-                        <div class="serv-info">If you have a hard drive that you
-                            are unable to access the files once plugged in the computer 
-                            or you have you files on you computer and you can’t turn it 
-                            on then we can extract your files. </div>
+                        <div class="serv-info">
+                            If you have a hard drive that you
+                            are unable to access the files once plugged in the computer
+                            or you have you files on you computer and you can’t turn it
+                            on then we can extract your files.
+                        </div>
                     </div>
-                    <span class="serv-learn hvr-float-shadow"><i class="arrow_right"></i></span>
+                    <span class="serv-learn hvr-float-shadow">
+                        <i class="arrow_right"></i>
+                    </span>
                     <!-- End: .about-item -->
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -127,12 +134,16 @@
                     <div class="service-item">
                         <div class="icon-serv icon_lightbulb_alt"></div>
                         <h5 class="serv-left">Onsite IT Support </h5>
-                        <div class="serv-info">We can come at your place and fix the problem 
+                        <div class="serv-info">
+                            We can come at your place and fix the problem
                             that you have with your compute device or any other device that has
                             similar content. We can also fix the problems with your internet
-                            connection as well.</div>
+                            connection as well.
+                        </div>
                     </div>
-                    <span class="serv-learn hvr-float-shadow"><i class="arrow_right"></i></span>
+                    <span class="serv-learn hvr-float-shadow">
+                        <i class="arrow_right"></i>
+                    </span>
                     <!-- End: .about-item -->
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -140,12 +151,16 @@
                     <div class="service-item">
                         <div class="icon-serv icon_clock_alt"></div>
                         <h5 class="serv-left">Virus Removal</h5>
-                        <div class="serv-info">Has your computer running slow or you see many ad coming put on your screen while do
-                            search on the internet or reading? Well you might be infected 
-                            by a virus that is trying to slow your computer and get your bank details 
-                            by advertising ads for products to by. </div>
+                        <div class="serv-info">
+                            Has your computer running slow or you see many ad coming put on your screen while do
+                            search on the internet or reading? Well you might be infected
+                            by a virus that is trying to slow your computer and get your bank details
+                            by advertising ads for products to by.
+                        </div>
                     </div>
-                    <span class="serv-learn hvr-float-shadow"><i class="arrow_right"></i></span>
+                    <span class="serv-learn hvr-float-shadow">
+                        <i class="arrow_right"></i>
+                    </span>
                     <!-- End: .about-item -->
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -153,11 +168,15 @@
                     <div class="service-item">
                         <div class="icon-serv icon_camera_alt"></div>
                         <h5 class="serv-left">PC Cleanup </h5>
-                        <div class="serv-info">If your computer is running slow, or you are unable to save any more files to your 
-                            computer its time for clean up. We can safely transfer the files to an external 
-                            hard drive and recondition your computer so it is working like brand new. </div>
+                        <div class="serv-info">
+                            If your computer is running slow, or you are unable to save any more files to your
+                            computer its time for clean up. We can safely transfer the files to an external
+                            hard drive and recondition your computer so it is working like brand new.
+                        </div>
                     </div>
-                    <span class="serv-learn hvr-float-shadow"><i class="arrow_right"></i></span>
+                    <span class="serv-learn hvr-float-shadow">
+                        <i class="arrow_right"></i>
+                    </span>
                     <!-- End: .about-item -->
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -165,11 +184,15 @@
                     <div class="service-item">
                         <div class="icon-serv icon_laptop"></div>
                         <h5 class="serv-left">Overheating Laptop</h5>
-                        <div class="serv-info">An overheating laptop or desktop can have a serious problems to your 
-                            computer. With the heat generated by the processor it can easaly damage other 
-                            components on the motherboard if the temperature is higher than normal.</div>
+                        <div class="serv-info">
+                            An overheating laptop or desktop can have a serious problems to your
+                            computer. With the heat generated by the processor it can easaly damage other
+                            components on the motherboard if the temperature is higher than normal.
+                        </div>
                     </div>
-                    <span class="serv-learn hvr-float-shadow"><i class="arrow_right"></i></span>
+                    <span class="serv-learn hvr-float-shadow">
+                        <i class="arrow_right"></i>
+                    </span>
                     <!-- End: .about-item -->
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -177,10 +200,14 @@
                     <div class="service-item">
                         <div class="icon-serv icon_genius"></div>
                         <h5 class="serv-left">Keyboard Repair</h5>
-                        <div class="serv-info">We replace keyboards with in the same day, if 
-                            you keyboard is not working then its time for new one.</div>
+                        <div class="serv-info">
+                            We replace keyboards with in the same day, if
+                            you keyboard is not working then its time for new one.
+                        </div>
                     </div>
-                    <span class="serv-learn hvr-float-shadow"><i class="arrow_right"></i></span>
+                    <span class="serv-learn hvr-float-shadow">
+                        <i class="arrow_right"></i>
+                    </span>
                     <!-- End: .about-item -->
                 </div>
             </div>
@@ -192,62 +219,60 @@
 </section>
 
 
-
 <!-- End:Our Services Section
 ==================================================-->
 
 
-    <!-- Start: Pricing Section 
-    ==================================================-->
-    
-    <section class="pricing-section" id="pricing">
-        <!-- container -->
-        <div class="container">
-            <!-- Start: Heading -->
-            <div class="base-header">
-                <h3>Select <span class="ylow_clr heading_clr_2">plan</span></h3>
-                <p>We have a remote support for $25 per year which allowes you to give us a call and we will look into the problem and try to reapar it remotely if its software related</p>
-            </div>
-            <!-- End: Heading -->
-    
-            <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <!-- Start: pricing-box 1 -->
-                       
-                    <!-- End: pricing-box 1 -->
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <!-- Start: pricing-box 2 -->
-                    <div class="pricing-box price_active">
-                        <h3>Remote Support</h3>
-                        <h5>You can call us any time an book an appointment for remote contorl repair.</h5>
-                        <h2><span>$</span>25<sub>/Year</sub></h2>
-                        <p>THe $25 is for the whole year support and you can use it as much as you need if you are experiencing problems 
-                            with your computer. We crate a database history of each problems that you had with your computer back in the past. </p>
-                        <a href="#" class="more-link">Order Now</a>
-                    </div>
-                    <!-- End: pricing-box 2 -->
-                </div>
-                <div class="col-sm-4 col-xs-12 star">
-                    <!-- Start: pricing-box 3 -->
-                       
-                    <!-- End: pricing-box 3 -->
-                </div>
-            </div>
-            <!--/ row -->
-        </div>
-        <!--/ container -->
-    </section>
-    
+<!-- Start: Pricing Section 
+==================================================-->
 
- 
-    <!-- End: Pricing Section
+<section class="pricing-section" id="pricing">
+    <!-- container -->
+    <div class="container">
+        <!-- Start: Heading -->
+        <div class="base-header">
+            <h3>Select <span class="ylow_clr heading_clr_2">plan</span></h3>
+            <p>We have a remote support for $25 per year which allowes you to give us a call and we will look into the problem and try to reapar it remotely if its software related</p>
+        </div>
+        <!-- End: Heading -->
+
+        <div class="row">
+            <div class="col-sm-4 col-xs-12">
+                <!-- Start: pricing-box 1 -->
+
+                <!-- End: pricing-box 1 -->
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <!-- Start: pricing-box 2 -->
+                <div class="pricing-box price_active">
+                    <h3>Remote Support</h3>
+                    <h5>You can call us any time an book an appointment for remote contorl repair.</h5>
+                    <h2><span>$</span>25<sub>/Year</sub></h2>
+                    <p>
+                        THe $25 is for the whole year support and you can use it as much as you need if you are experiencing problems
+                        with your computer. We crate a database history of each problems that you had with your computer back in the past.
+                    </p>
+                    <a href="#" class="more-link">Order Now</a>
+                </div>
+                <!-- End: pricing-box 2 -->
+            </div>
+            <div class="col-sm-4 col-xs-12 star">
+                <!-- Start: pricing-box 3 -->
+
+                <!-- End: pricing-box 3 -->
+            </div>
+        </div>
+        <!--/ row -->
+    </div>
+    <!--/ container -->
+</section>
+
+
+<!-- End: Pricing Section
 ==================================================-->
 
 
-
-
-    <!--Start: Video Section
+<!--Start: Video Section
 ==================================================-->
 
 <div class="video-area">
@@ -274,455 +299,506 @@
     </div>
 </div>
 
-  
-    <!-- End: VIDEO Section
+
+<!-- End: VIDEO Section
 ==================================================-->
 
 
-    <!-- Start: Our Blog Section
+<!-- Start: Our Blog Section
 ==================================================-->
-   
-    <section class="blog-section" id="blog">
-        <div class="container">
-            <!-- Start: Heading -->
-            <div class="base-header">
-                <h3>Latest <span class="ylow_clr heading_clr_2"> News </span> </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus id lectus quis dui euismod con placerat massa nec elit egestas efficitur amet consectetur hasellus id lectus quis  </p>
-            </div>
-            <!-- End: Heading -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme" id="blog_carousel">
-                        <div class="item">
-                            <div class="blog_box">
-                                <a class="blog_box_ovrlay" href="#">
-                                    <img class="img-responsive" src="~/images/img/blog2.jpg" alt="">
-                                    <div class="blog_post_date"><span>9</span>Aug</div>
-                                </a>
-                                <div class="blog_info_right">
-                                    <a href="#"><h3>Laptop Fair Services</h3></a>
-                                    <p>Lorem ipsum dolor sit amet, cons ect etur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci.</p>
-                                    <div class="blog_date_athor">
-                                        <span>By: <a href="">repairme</a></span>
-                                        <span><a href="">Read more:</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="blog_box">
-                                <a class="blog_box_ovrlay" href="#">
-                                    <img class="img-responsive" src="~/images/img/blog3.jpg" alt="">
-                                    <div class="blog_post_date"><span>9</span>Aug</div>
-                                </a>
-                                <div class="blog_info_right">
-                                    <a href="#"><h3>Mobile Fair Services</h3></a>
-                                    <p>Lorem ipsum dolor sit amet, cons ect etur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci.</p>
-                                    <div class="blog_date_athor">
-                                        <span>By: <a href="">repairme</a></span>
-                                        <span><a href="">Read more:</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /. row -->
+
+<section class="blog-section" id="blog">
+    <div class="container">
+        <!-- Start: Heading -->
+        <div class="base-header">
+            <h3>Latest <span class="ylow_clr heading_clr_2"> News </span> </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus id lectus quis dui euismod con placerat massa nec elit egestas efficitur amet consectetur hasellus id lectus quis </p>
         </div>
-        <!-- /. container -->
-    </section>
-    
-
-    <!-- End: Our Blog Section
-==================================================-->
-
-
-
-    <!--  Start: Counter Section 
-    ==================================================-->
-    
-      <section class="counter-section text-center" data-stellar-background-ratio="0.4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-content">
-                            <i class="icon_lightbulb_alt" aria-hidden="true"></i>
-                            <h2 class="counter">12</h2>
-                            <p>Year Experience</p>
+        <!-- End: Heading -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme" id="blog_carousel">
+                    <div class="item">
+                        <div class="blog_box">
+                            <a class="blog_box_ovrlay" href="#">
+                                <img class="img-responsive" src="~/images/img/blog2.jpg" alt="">
+                                <div class="blog_post_date"><span>9</span>Aug</div>
+                            </a>
+                            <div class="blog_info_right">
+                                <a href="#">
+                                    <h3>Laptop Fair Services</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, cons ect etur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci.</p>
+                                <div class="blog_date_athor">
+                                    <span>By: <a href="">repairme</a></span>
+                                    <span>
+                                        <a href="">Read more:</a>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- /.col -->
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-content">
-                            <i class="icon_genius" aria-hidden="true"></i>
-                            <h2 class="counter">223</h2>
-                            <p>Project Done</p>
+                    <div class="item">
+                        <div class="blog_box">
+                            <a class="blog_box_ovrlay" href="#">
+                                <img class="img-responsive" src="~/images/img/blog3.jpg" alt="">
+                                <div class="blog_post_date"><span>9</span>Aug</div>
+                            </a>
+                            <div class="blog_info_right">
+                                <a href="#">
+                                    <h3>Mobile Fair Services</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, cons ect etur elit. Vestibulum nec odios Suspe ndisse cursus mal suada faci.</p>
+                                <div class="blog_date_athor">
+                                    <span>By: <a href="">repairme</a></span>
+                                    <span>
+                                        <a href="">Read more:</a>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- /.col -->
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-content">
-                            <i class="icon_heart_alt" aria-hidden="true"></i>
-                            <h2 class="counter">347</h2>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="counter-content">
-                            <i class="icon_genius" aria-hidden="true"></i>
-                            <h2 class="counter">89</h2>
-                            <p>Awards Own</p>
-                        </div>
-                    </div>
-                    <!-- /.col -->
                 </div>
             </div>
-            <!-- /.container -->
-        </section>
-        <!-- End Counter -->
-    
-      
-
-    <!-- End: Counter Section
-==================================================-->
-
-    <!--  Start: Work Section 
-    ==================================================-->
-    
-    <section class="work-section" id="work">
-            <div class="container">
-                <!-- Title-->
-                <div class="base-header">
-                    <h3>Repair <span class="ylow_clr heading_clr_2">Gallery</span> </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus id lectus quis dui euismod con placerat massa nec elit egestas efficitur amet consectetur hasellus id lectus quis  </p>
-                </div>
-                <!--/ Title -->
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <!-- Project Filter-->
-                        <div class="project-filter">
-                            <ul class="project_menu">
-                                <li class="filter" data-filter="all"> All Latest Works</li>
-                                <li class="filter" data-filter=".category-1">Smartphone</li>
-                                <li class="filter" data-filter=".category-2">Laptop</li>
-                                <li class="filter" data-filter=".category-3">Computer</li>
-                                <li class="filter" data-filter=".category-4">Phone</li>
-                            </ul>
-                        </div>
-                        <!-- Project Filter End-->
-                    </div>
-                    <!-- col-md-6 col-sm-6 col-xs-12 -->
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="row">
-                            <div class="project-list" id="MixItUp923685">
-                                <!-- Work Item 1 -->
-                                <div class="col-sm-3 col-xs-12 mix category-1" data-myorder="4">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-1.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-1.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/ Work Item 1-->
-    
-                                <!-- Work Item 2 -->
-                                <div class="col-sm-3 col-xs-12 mix category-2" data-myorder="3">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-2.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-2.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/ Work Item 2-->
-                                <!-- Work Item 3 -->
-                                <div class="col-sm-3 col-xs-12 mix category-3" data-myorder="2">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-3.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-3.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/ Work Item 3-->
-    
-                                <!-- Work Item 4 -->
-                                <div class="col-sm-3 col-xs-12 mix category-4" data-myorder="1">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-4.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-4.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/ Work Item 4 -->
-                                <!-- Work Item 5 -->
-                                <div class="col-sm-3 col-xs-12 mix category-1" data-myorder="4">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-5.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-5.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/Work Item 5 -->
-                                <!-- Work Item 6 -->
-                                <div class="col-sm-3 col-xs-12 mix category-2" data-myorder="3">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-6.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-6.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/ Work Item 6-->
-                                <!-- Work Item 7 -->
-                                <div class="col-sm-3 col-xs-12 mix category-3" data-myorder="2">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-2.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-2.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/ Work Item 7 -->
-                                <!-- Work Item 8 -->
-                                <div class="col-sm-3 col-xs-12 mix category-1" data-myorder="4">
-                                    <div class="work-item">
-                                        <figure class="hovereffect">
-                                            <img src="~/images/img/work-3.jpg" alt="example-image">
-                                            <div class="work_text_wrp">
-                                                <h3>Desktop</h3>
-                                                <p>category : <a href="single-gallery.html">repair
-                                                </a>
-                                                </p>
-                                                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="images/img/work-3.jpg">
-                                                    <i class="fa fa-plus"></i>
-                                                </a>
-                                                <a href="gallery.html" class="work_link">
-                                                    <i class="fa fa-chain"></i>
-                                                </a>
-                                            </div>
-                                            <a href="#"></a>
-                                        </figure>
-                                    </div>
-                                </div>
-                                <!--/Work Item 8 -->
-                            </div>
-    
-                        </div>
-                        <!--/.row-->
-                        <div class="text-center">
-                            <a href="gallery.html" class="more-link">See More
-    							<i class="fa flm fa-angle-double-right"></i>
-    						</a>
-                        </div>
-                    </div>
-                    <!--/.col-md-6 col-sm-6 col-xs-12-->
-                </div>
-                <!--/.row-->
-            </div>
-            <!--/.container-->
-        </section>
-        
-
-   
-    <!--  End: Work Section
-==================================================-->
-
-
-
-
-    <!-- Start: Testimonial Section
-==================================================-->
-   
-    <div class="testimonials-section" id="testimo">
-            <div class="container">
-                <!-- Start: Heading -->
-                <div class="base-header">
-                    <h3>Client & <span class="ylow_clr heading_clr_2">Testimonial</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus id lectus quis dui euismod con placerat massa nec elit egestas efficitur amet consectetur hasellus id lectus quis  </p>
-                </div>
-                <!-- End: Heading -->
-                <div class="row">
-                    <div class="col-xs-12">
-                        <!-- Testimonials-->
-                        <div class="owl-carousel owl-theme" id="testimonial">
-                            <!-- Start: Testimonial 1 -->
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <h4>I feel <b>beautiful</b> for the first time...</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
-                                    </div>
-    
-                                    <div class="col-sm-12 cus-title">
-                                        <h5>CEO At Twitter <b>John Deo</b><span class="tes-img"><img alt="testimonial" src="~/images/img/tes1.jpg"></span></h5>
-                                    </div>
-    
-                                </div>
-                                <!--End: Testimonial 1 -->
-                            </div>
-                            <!-- Start: Testimonial 2 -->
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <h4>I feel <b>beautiful</b> for the first time...</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
-                                    </div>
-    
-                                    <div class="col-sm-12 cus-title">
-                                        <h5>CEO At Twitter <b>Ldia Park</b><span class="tes-img"><img alt="testimonial" src="~/images/img/tes2.jpg"></span></h5>
-                                    </div>
-    
-                                </div>
-                                <!--End: Testimonial 2 -->
-                            </div>
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <h4>I feel <b>beautiful</b> for the first time...</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
-                                    </div>
-    
-                                    <div class="col-sm-12 cus-title">
-                                        <h5>CEO At Twitter <b>Adam Clark</b><span class="tes-img"><img alt="testimonial" src="~/images/img/tes3.jpg"></span></h5>
-                                    </div>
-    
-                                </div>
-                                <!--End: Testimonial 3 -->
-                            </div>
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <h4>I feel <b>beautiful</b> for the first time...</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
-                                    </div>
-    
-                                    <div class="col-sm-12 cus-title">
-                                        <h5>CEO At Twitter <b>John Astin</b><span class="tes-img"><img alt="testimonial" src="~/images/img/tes1.jpg"></span></h5>
-                                    </div>
-    
-                                </div>
-                                <!--End: Testimonial 4 -->
-                            </div>
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <div class="col-lg-12 col-sm-12">
-                                        <h4>I feel <b>beautiful</b> for the first time...</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
-                                    </div>
-    
-                                    <div class="col-sm-12 cus-title">
-                                        <h5>CEO At Twitter <b>Lydia Park</b><span class="tes-img"><img alt="testimonial" src="~/images/img/tes2.jpg"></span></h5>
-                                    </div>
-    
-                                </div>
-                                <!--End: Testimonial 5 -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--/.row-->
-            </div>
-            <!--/.container-->
         </div>
-        
+        <!-- /. row -->
+    </div>
+    <!-- /. container -->
+</section>
 
 
-    <!-- End: Testimonial Section 
+<!-- End: Our Blog Section
 ==================================================-->
 
 
+<!--  Start: Counter Section 
+==================================================-->
 
-    <!-- End: Client Section
+<section class="counter-section text-center" data-stellar-background-ratio="0.4">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-xs-6">
+                <div class="counter-content">
+                    <i class="icon_lightbulb_alt" aria-hidden="true"></i>
+                    <h2 class="counter">12</h2>
+                    <p>Year Experience</p>
+                </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-sm-3 col-xs-6">
+                <div class="counter-content">
+                    <i class="icon_genius" aria-hidden="true"></i>
+                    <h2 class="counter">223</h2>
+                    <p>Project Done</p>
+                </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-sm-3 col-xs-6">
+                <div class="counter-content">
+                    <i class="icon_heart_alt" aria-hidden="true"></i>
+                    <h2 class="counter">347</h2>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-sm-3 col-xs-6">
+                <div class="counter-content">
+                    <i class="icon_genius" aria-hidden="true"></i>
+                    <h2 class="counter">89</h2>
+                    <p>Awards Own</p>
+                </div>
+            </div>
+            <!-- /.col -->
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- End Counter -->
+
+
+<!-- End: Counter Section
+==================================================-->
+
+<!--  Start: Work Section 
+==================================================-->
+
+<section class="work-section" id="work">
+<div class="container">
+<!-- Title-->
+<div class="base-header">
+    <h3>Repair <span class="ylow_clr heading_clr_2">Gallery</span> </h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus id lectus quis dui euismod con placerat massa nec elit egestas efficitur amet consectetur hasellus id lectus quis </p>
+</div>
+<!--/ Title -->
+<div class="row">
+<div class="col-md-12 col-sm-12">
+    <!-- Project Filter-->
+    <div class="project-filter">
+        <ul class="project_menu">
+            <li class="filter" data-filter="all"> All Latest Works</li>
+            <li class="filter" data-filter=".category-1">Smartphone</li>
+            <li class="filter" data-filter=".category-2">Laptop</li>
+            <li class="filter" data-filter=".category-3">Computer</li>
+            <li class="filter" data-filter=".category-4">Phone</li>
+        </ul>
+    </div>
+    <!-- Project Filter End-->
+</div>
+<!-- col-md-6 col-sm-6 col-xs-12 -->
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="row">
+<div class="project-list" id="MixItUp923685">
+<!-- Work Item 1 -->
+<div class="col-sm-3 col-xs-12 mix category-1" data-myorder="4">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-1.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-1.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/ Work Item 1-->
+
+<!-- Work Item 2 -->
+<div class="col-sm-3 col-xs-12 mix category-2" data-myorder="3">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-2.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-2.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/ Work Item 2-->
+<!-- Work Item 3 -->
+<div class="col-sm-3 col-xs-12 mix category-3" data-myorder="2">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-3.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-3.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/ Work Item 3-->
+
+<!-- Work Item 4 -->
+<div class="col-sm-3 col-xs-12 mix category-4" data-myorder="1">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-4.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-4.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/ Work Item 4 -->
+<!-- Work Item 5 -->
+<div class="col-sm-3 col-xs-12 mix category-1" data-myorder="4">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-5.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-5.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/Work Item 5 -->
+<!-- Work Item 6 -->
+<div class="col-sm-3 col-xs-12 mix category-2" data-myorder="3">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-6.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-6.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/ Work Item 6-->
+<!-- Work Item 7 -->
+<div class="col-sm-3 col-xs-12 mix category-3" data-myorder="2">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-2.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="~/images/img/work-2.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/ Work Item 7 -->
+<!-- Work Item 8 -->
+<div class="col-sm-3 col-xs-12 mix category-1" data-myorder="4">
+    <div class="work-item">
+        <figure class="hovereffect">
+            <img src="~/images/img/work-3.jpg" alt="example-image">
+            <div class="work_text_wrp">
+                <h3>Desktop</h3>
+                <p>
+                    category :
+                    <a href="single-gallery.html">
+                        repair
+                    </a>
+                </p>
+                <a class="info2" data-lightbox="example-2" data-title="Optional caption." href="images/img/work-3.jpg">
+                    <i class="fa fa-plus"></i>
+                </a>
+                <a href="gallery.html" class="work_link">
+                    <i class="fa fa-chain"></i>
+                </a>
+            </div>
+            <a href="#"></a>
+        </figure>
+    </div>
+</div>
+<!--/Work Item 8 -->
+</div>
+
+</div>
+<!--/.row-->
+<div class="text-center">
+    <a href="gallery.html" class="more-link">
+        See More
+        <i class="fa flm fa-angle-double-right"></i>
+    </a>
+</div>
+</div>
+<!--/.col-md-6 col-sm-6 col-xs-12-->
+</div>
+<!--/.row-->
+</div>
+<!--/.container-->
+</section>
+
+
+<!--  End: Work Section
+==================================================-->
+
+
+<!-- Start: Testimonial Section
+==================================================-->
+
+<div class="testimonials-section" id="testimo">
+    <div class="container">
+        <!-- Start: Heading -->
+        <div class="base-header">
+            <h3>Client & <span class="ylow_clr heading_clr_2">Testimonial</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Phasellus id lectus quis dui euismod con placerat massa nec elit egestas efficitur amet consectetur hasellus id lectus quis </p>
+        </div>
+        <!-- End: Heading -->
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- Testimonials-->
+                <div class="owl-carousel owl-theme" id="testimonial">
+                    <!-- Start: Testimonial 1 -->
+                    <div class="item">
+                        <div class="testimonial-box">
+                            <div class="col-lg-12 col-sm-12">
+                                <h4>I feel <b>beautiful</b> for the first time...</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
+                            </div>
+
+                            <div class="col-sm-12 cus-title">
+                                <h5>
+                                    CEO At Twitter <b>John Deo</b>
+                                    <span class="tes-img">
+                                        <img alt="testimonial" src="~/images/img/tes1.jpg">
+                                    </span>
+                                </h5>
+                            </div>
+
+                        </div>
+                        <!--End: Testimonial 1 -->
+                    </div>
+                    <!-- Start: Testimonial 2 -->
+                    <div class="item">
+                        <div class="testimonial-box">
+                            <div class="col-lg-12 col-sm-12">
+                                <h4>I feel <b>beautiful</b> for the first time...</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
+                            </div>
+
+                            <div class="col-sm-12 cus-title">
+                                <h5>
+                                    CEO At Twitter <b>Ldia Park</b>
+                                    <span class="tes-img">
+                                        <img alt="testimonial" src="~/images/img/tes2.jpg">
+                                    </span>
+                                </h5>
+                            </div>
+
+                        </div>
+                        <!--End: Testimonial 2 -->
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-box">
+                            <div class="col-lg-12 col-sm-12">
+                                <h4>I feel <b>beautiful</b> for the first time...</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
+                            </div>
+
+                            <div class="col-sm-12 cus-title">
+                                <h5>
+                                    CEO At Twitter <b>Adam Clark</b>
+                                    <span class="tes-img">
+                                        <img alt="testimonial" src="~/images/img/tes3.jpg">
+                                    </span>
+                                </h5>
+                            </div>
+
+                        </div>
+                        <!--End: Testimonial 3 -->
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-box">
+                            <div class="col-lg-12 col-sm-12">
+                                <h4>I feel <b>beautiful</b> for the first time...</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
+                            </div>
+
+                            <div class="col-sm-12 cus-title">
+                                <h5>
+                                    CEO At Twitter <b>John Astin</b>
+                                    <span class="tes-img">
+                                        <img alt="testimonial" src="~/images/img/tes1.jpg">
+                                    </span>
+                                </h5>
+                            </div>
+
+                        </div>
+                        <!--End: Testimonial 4 -->
+                    </div>
+                    <div class="item">
+                        <div class="testimonial-box">
+                            <div class="col-lg-12 col-sm-12">
+                                <h4>I feel <b>beautiful</b> for the first time...</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at eros id ex feugiat tristique eget a dui. Vestibulum auctor vehicula lectus non rhoncus. Etiam interdum diam at posuere bibendum.</p>
+                            </div>
+
+                            <div class="col-sm-12 cus-title">
+                                <h5>
+                                    CEO At Twitter <b>Lydia Park</b>
+                                    <span class="tes-img">
+                                        <img alt="testimonial" src="~/images/img/tes2.jpg">
+                                    </span>
+                                </h5>
+                            </div>
+
+                        </div>
+                        <!--End: Testimonial 5 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.row-->
+    </div>
+    <!--/.container-->
+</div>
+
+
+<!-- End: Testimonial Section 
+==================================================-->
+
+
+<!-- End: Client Section
 ==================================================-->
 <div class="client-section" id="client-section">
     <!-- Container -->
@@ -733,49 +809,56 @@
                 <!-- client 1 -->
                 <div class="item row">
                     <div class="col-md-12">
-                        <div class="client-box"><img alt="client" src="~/images/img/client-1.png">
+                        <div class="client-box">
+                            <img alt="client" src="~/images/img/client-1.png">
                         </div>
                     </div>
                 </div>
                 <!-- client 2 -->
                 <div class="item row">
                     <div class="col-md-12">
-                        <div class="client-box"><img alt="client" src="~/images/img/client-2.png">
+                        <div class="client-box">
+                            <img alt="client" src="~/images/img/client-2.png">
                         </div>
                     </div>
                 </div>
                 <!-- client 3 -->
                 <div class="item row">
                     <div class="col-md-12">
-                        <div class="client-box"><img alt="client" src="~/images/img/client-3.png">
+                        <div class="client-box">
+                            <img alt="client" src="~/images/img/client-3.png">
                         </div>
                     </div>
                 </div>
                 <!-- client 4 -->
                 <div class="item row">
                     <div class="col-md-12">
-                        <div class="client-box"><img alt="client" src="~/images/img/client-4.png">
+                        <div class="client-box">
+                            <img alt="client" src="~/images/img/client-4.png">
                         </div>
                     </div>
                 </div>
                 <!-- client 5 -->
                 <div class="item row">
                     <div class="col-md-12">
-                        <div class="client-box"><img alt="client" src="~/images/img/client-5.png">
+                        <div class="client-box">
+                            <img alt="client" src="~/images/img/client-5.png">
                         </div>
                     </div>
                 </div>
                 <!-- client 6 -->
                 <div class="item row">
                     <div class="col-md-12">
-                        <div class="client-box"><img alt="client" src="~/images/img/client-6.png">
+                        <div class="client-box">
+                            <img alt="client" src="~/images/img/client-6.png">
                         </div>
                     </div>
                 </div>
                 <!-- client 7 -->
                 <div class="item row">
                     <div class="col-md-12">
-                        <div class="client-box"><img alt="client" src="~/images/img/client-1.png">
+                        <div class="client-box">
+                            <img alt="client" src="~/images/img/client-1.png">
                         </div>
                     </div>
                 </div>
@@ -788,13 +871,5 @@
 </div>
 
 
-
-    <!-- End:Client Section 
+<!-- End:Client Section 
 ==================================================-->
-
-
-
-
-
-
-

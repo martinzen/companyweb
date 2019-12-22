@@ -32,5 +32,28 @@ namespace Venkant.Controllers
         {
             return View();
         }
+        public ViewResult DiskCleanupServices()
+        {
+            return View();
+        }
+        public ViewResult HardDriveIssues()
+        {
+            return View();
+        }
+        
+        public ViewResult ITSupport()
+        {
+            return View();
+        }
+        
+        public ViewResult Keyboard()
+        {
+            return View();
+        }
+        
+        public ViewResult Viruses()
+        {
+            return View();
+        }
     }
 }

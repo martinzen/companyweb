@@ -26,7 +26,7 @@ namespace Venkant
         
         public void Configure(IApplicationBuilder app)
         {
-            app.UseStaticFiles();
+           
             
             
             app.UseRouting(); 
@@ -42,7 +42,24 @@ namespace Venkant
                     Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")),
                 RequestPath = "/wwwroot"
             });
+            
+            
+            app.UseMvc(routes =>
+            {
+                // need route and attribute on controller: [Area("Blogs")]
+                routes.MapRoute(name: "mvcAreaRoute",
+                    template: "{area:exists}/{controller=Home}/{action=Index}");
+
+                // default route for non-areas
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
+            
+            
         }
+        
+        
 
         
         /*
@@ -85,12 +102,6 @@ namespace Venkant
             */
             
             // 2. In the start menue we allcate what we will be doing 
-           
-
- 
-
-        
-       
      
     }
 }

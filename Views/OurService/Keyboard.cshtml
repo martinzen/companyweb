@@ -1,3 +1,4 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
 
     Layout = "~/Views/Shared/_LayoutFoter.cshtml";
@@ -13,7 +14,7 @@
                     <div class="single_service_left">
                         <img class="sng_service_img" src="~/images/img/single_service1.jpg" alt="">
                         <img src="~/images/img/single_service2.jpg" alt="">
-                        <h4>Computers Repair</h4>
+                        <h4>Keyboard Replacement</h4>
                         <p>If you are experiencing some sticky keys, missing keys, or a keyboard that does not function, then Any PC Problems is the first place you should go for your laptop keyboard repair Melbourne needs.
                             We are able to replace keyboards without being too expensive and our services 
                             are actually much cheaper than branded or other kinds of alternatives.
@@ -65,18 +66,19 @@
                     <div class="single_service_right">
                         <div class="single_service_cat">
                             <h4>Categories</h4>
-                            <ul>
-                                <li><a href="#">Smartphone Repair</a>
-                                </li>
-                                <li><a href="#">Computer Repair</a>
-                                </li>
-                                <li class="service_active"><a href="#">laptop Repair</a>
-                                </li>
-                                <li><a href="#">Desktop Repair</a>
-                                </li>
-                                <li><a href="#">Digital Repair</a>
-                                </li>
-                            </ul>
+                          <ul>
+                              <li><a asp-controller="OurService" asp-action="DiskCleanupServices">Disk Cleanup Services</a>
+                                  </li>
+                              <li><a asp-controller="OurService" asp-action="HardDriveIssues">Hard Drive Issues</a></li>
+                              <li><a asp-controller="OurService" asp-action="ITSupport">IT Support</a>
+                                  </li>
+                              <li class="service_active"><a asp-controller="OurService" asp-action="Keyboard">Keyboard</a></li>
+                              <li ><a asp-controller="OurService" asp-action="ourService">Our Service</a>
+                                  </li>
+                              <li ><a asp-controller="OurService" asp-action="Overheating">Overheating</a>
+                                  </li>
+                              <li><a asp-controller="OurService" asp-action="Viruses">Viruses</a></li>
+                              </ul>
                         </div>
                         <div class="download_brochur">
                             <h4>OUR BROCHURES</h4>

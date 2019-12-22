@@ -26,11 +26,7 @@ namespace Venkant.Controllers
             return View();
         }
         
-        
-        public ViewResult ourService()
-        {
-            return View();
-        }
+      
         
     }
 }

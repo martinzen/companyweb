@@ -101,3 +101,7 @@
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_LayoutFoter.cshtml.g.cs
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/Keyboard.cshtml.g.cs
 /Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/Overheating.cshtml.g.cs
+/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/DiskCleanupServices.cshtml.g.cs
+/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/HardDriveIssues.cshtml.g.cs
+/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/ITSupport.cshtml.g.cs
+/Users/martin/RiderProjects/companywebTest/obj/Debug/netcoreapp3.0/Razor/Views/OurService/Viruses.cshtml.g.cs

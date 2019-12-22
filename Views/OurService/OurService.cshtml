@@ -1,3 +1,4 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
 
     Layout = "~/Views/Shared/_LayoutFoter.cshtml";
@@ -42,16 +43,19 @@
                         <div class="single_service_cat">
                             <h4>Categories</h4>
                             <ul>
-                                <li><a href="#">Smartphone Repair</a>
+                                
+                                <li><a asp-controller="OurService" asp-action="DiskCleanupServices">Disk Cleanup Services</a>
                                 </li>
-                                <li><a href="#">Computer Repair</a>
+                                <li><a asp-controller="OurService" asp-action="HardDriveIssues">Hard Drive Issues</a>
                                 </li>
-                                <li class="service_active"><a href="#">laptop Repair</a>
+                                <li><a asp-controller="OurService" asp-action="ITSupport">IT Support</a>
                                 </li>
-                                <li><a href="#">Desktop Repair</a>
+                                <li><a asp-controller="OurService" asp-action="Keyboard">Keyboard</a></li>
+                                <li class="service_active"><a asp-controller="OurService" asp-action="ourService">Our Service</a>
                                 </li>
-                                <li><a href="#">Digital Repair</a>
+                                <li ><a asp-controller="OurService" asp-action="Overheating">Overheating</a>
                                 </li>
+                                <li><a asp-controller="OurService" asp-action="Viruses">Viruses</a></li>
                             </ul>
                         </div>
                         <div class="download_brochur">
