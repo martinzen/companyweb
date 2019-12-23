@@ -92,5 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.435" />
+    <PackageReference Include="MailKit" Version="2.4.1" />
   </ItemGroup>
 </Project>

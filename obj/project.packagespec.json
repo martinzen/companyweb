@@ -33,6 +33,10 @@
         "BuildBundlerMinifier": {
           "target": "Package",
           "version": "[3.2.435, )"
+        },
+        "MailKit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
         }
       },
       "imports": [

@@ -143,3 +143,6 @@ C:\Users\Admin\RiderProjects\companyweb\obj\Debug\netcoreapp3.0\Venkant.dll
 C:\Users\Admin\RiderProjects\companyweb\obj\Debug\netcoreapp3.0\Venkant.pdb
 C:\Users\Admin\RiderProjects\companyweb\obj\Debug\netcoreapp3.0\Venkant.csproj.CopyComplete
 C:\Users\Admin\RiderProjects\companyweb\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LayoutFooter.cshtml.g.cs
+C:\Users\Admin\RiderProjects\companyweb\bin\Debug\netcoreapp3.0\MailKit.dll
+C:\Users\Admin\RiderProjects\companyweb\bin\Debug\netcoreapp3.0\MimeKit.dll
+C:\Users\Admin\RiderProjects\companyweb\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll

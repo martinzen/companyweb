@@ -1,4 +1,6 @@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Venkant.Models.ContactFormModel
 
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -15,8 +17,8 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Digital Tech Repair - Phone, Computer Repair Shop  HTML Template" />
-    <meta name="keywords" content="Digital Tech Repair, parallax, one page, multipage, responsive, landing, html template" />
+    <meta name="description" content="Digital Tech Repair - Phone, Computer Repair Shop  HTML Template"/>
+    <meta name="keywords" content="Digital Tech Repair, parallax, one page, multipage, responsive, landing, html template"/>
     <meta name="author" content="Digital Tech Repair">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -28,11 +30,11 @@
 
 
     <!-- CSS Begins
-================================================== -->
+    ================================================== -->
     <!--Animate Effect-->
     <link href="~/css/animate.css" rel="stylesheet">
     <link href="~/css/hover.css" rel="stylesheet">
-    
+
 
     <!--Pretty Photo for Image Preview-->
     <link href="~/css/lightbox.css" rel="stylesheet">
@@ -42,8 +44,8 @@
     <link href="~/css/owl.transitions.css" rel="stylesheet">
 
     <!-- nivo slider CSS -->
-    <link rel="stylesheet" href="~/css/nivo-slider.css" type="text/css" />
-    <link rel="stylesheet" href="~/css/nivo-preview.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="~/css/nivo-slider.css" type="text/css"/>
+    <link rel="stylesheet" href="~/css/nivo-preview.css" type="text/css" media="screen"/>
 
     <!--BootStrap -->
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
@@ -60,163 +62,171 @@
     <!--Replace Your Color Ends-->
     <!-- Template Demo Color  Examples -->
     <!-- Color 1	
-	<link rel="stylesheet" type="text/css" href="css/colors/one.css"/>  
-	-->
+    <link rel="stylesheet" type="text/css" href="css/colors/one.css"/>  
+    -->
     <!-- Color 2
-	<link rel="stylesheet" type="text/css" href="css/colors/two.css"/> 
-	-->
+    <link rel="stylesheet" type="text/css" href="css/colors/two.css"/> 
+    -->
     <!-- Color 3
-	<link rel="stylesheet" type="text/css" href="css/colors/three.css"/>
-	-->
+    <link rel="stylesheet" type="text/css" href="css/colors/three.css"/>
+    -->
     <!-- Color 4
-	<link rel="stylesheet" type="text/css" href="css/colors/four.css"/>
+    <link rel="stylesheet" type="text/css" href="css/colors/four.css"/>
     -->
     <!-- END Template Color Demo Examples -->
 
     <!--[if IE]>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
 
 
-   <div class="header_topbar">
-        <!-- Logo -->
-        <div class="container">
-            <div class="row">
-                <div class="header_top_left">
-                    <ul class="header_socil list-inline pull-left">
-                        <li>
-                            <a href="#" class="fa fa-facebook"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="fa fa-twitter"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="fa fa-linkedin"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="fa fa-google-plus"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="header_top_right list-unstyled">
-                    <ul>
-                        <li><i class="fa fa-envelope"></i>info@anypcproblem.com.au</li>
-                        <li><i class="fa fa-phone"></i>0420267746</li>
-                        <li><i class="fa fa-envelope"></i>Mon-Sat: 8:00 - 18:00 </li>
-                    </ul>
-                </div>
+<div class="header_topbar">
+    <!-- Logo -->
+    <div class="container">
+        <div class="row">
+            <div class="header_top_left">
+                <ul class="header_socil list-inline pull-left">
+                    <li>
+                        <a href="#" class="fa fa-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-google-plus"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_top_right list-unstyled">
+                <ul>
+                    <li><i class="fa fa-envelope"></i>info@anypcproblem.com.au</li>
+                    <li><i class="fa fa-phone"></i>0420267746</li>
+                    <li><i class="fa fa-envelope"></i>Mon-Sat: 8:00 - 18:00 </li>
+                </ul>
             </div>
         </div>
     </div>
-    <!-- End: Header Info -->
+</div>
+<!-- End: Header Info -->
 
 
-        <!-- Start: header navigation -->
-    <div class="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="logo col-xs-8 col-sm-2">
-                    <a href="#."><img class="img-responsive" src="~/images/logo.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-7 col-md-offset-1">
-                    <div id="navigation" class="single-page-nav">
-                        <ul>
-                            <li><a href="#top">Home</a>
-                            </li>
-                            <li><a href="#about">About</a>
-                            </li>
-                            <li><a href="#pricing">pricing</a>
-                            </li>
-                            <li><a href="#blog">blog</a>
-                            </li>
-                            <li><a href="#work">work</a>
-                            </li>
-                            <li><a href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header-right col-sm-2">
+<!-- Start: header navigation -->
+<div class="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="logo col-xs-8 col-sm-2">
+                <a href="#.">
+                    <img class="img-responsive" src="~/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-7 col-md-offset-1">
+                <div id="navigation" class="single-page-nav">
                     <ul>
                         <li>
-                            <a href="#" class="cart-toggler search_icon"><i class="fa fa-search"></i></a>
-                            <div class="search_icon_inr">
-                                <form action="#">
-                                    <div>
-                                        <input value="" placeholder="Search" autocomplete="off" type="text">
-                                        <button class="btn-search" type="submit">
-                                            <i class="fa fa-search"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
+                            <a href="#top">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#pricing">pricing</a>
+                        </li>
+                        <li>
+                            <a href="#blog">blog</a>
+                        </li>
+                        <li>
+                            <a href="#work">work</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <!-- End: social-nav -->
             </div>
-            <!--/ row -->
-        </div>
-        <!--/ container -->
-    </div>
-    <!-- End: header navigation -->
-
-
-    <!-- Start: Slides  -->
-    <div class="slides_wrapper slides_wrapper_v2">
-        <div class="slider_home">
-            <div class="single_slider slide_bg_3">
-                <div class="slider_item_tb">
-                    <div class="slider_item_tbcell">
-                        <div class="container">
-                            <div class="row" id="scene2">
-                              
-                                <div class="col-md-7 col-xs-12 animated layer" data-depth="0.50">
-                                    <h2> We will solve all types of Computer issues, <span class="slide_clr"> AnyPCproblem </span></h2>
-                                    <p>We have been on the market for a long time, working for businesses and now working with the public as well. We can fix all problems that you will encounter with your computer. We also can provide solutions for small businesses such as building Websites or running marketing campaigns. </p>
-                                    <div class="slider_btn">
-                                        <a class="slider_btn_one" asp-controller="OurService" asp-action="ourService">Read more</a>
-                                    </div>
+            <div class="header-right col-sm-2">
+                <ul>
+                    <li>
+                        <a href="#" class="cart-toggler search_icon">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <div class="search_icon_inr">
+                            <form action="#">
+                                <div>
+                                    <input value="" placeholder="Search" autocomplete="off" type="text">
+                                    <button class="btn-search" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
                                 </div>
-                                <div class="col-md-4 col-xs-12">
-                                    <div class="slider_form slideInRight">
-                                          
-                                        <h3>Tell us your problem and give us the price you would pay</h3>
-                                        <form method="post">
-                                            <input placeholder="Your Name" name="s_name" type="text">
-                                            <input placeholder="Email Address" name="s_email" type="email">
-                                            <input placeholder="Phone" name="s_phone" type="phone">
-                                            <textarea name="s_textarea" id="s_textarea" cols="30" rows="10" placeholder="Tell us your problem "></textarea>
-                                            <input value="Get A Quote" type="submit">
-                                        </form>
-                                    </div>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- End: social-nav -->
+        </div>
+        <!--/ row -->
+    </div>
+    <!--/ container -->
+</div>
+<!-- End: header navigation -->
+
+
+<!-- Start: Slides  -->
+<div class="slides_wrapper slides_wrapper_v2">
+    <div class="slider_home">
+        <div class="single_slider slide_bg_3">
+            <div class="slider_item_tb">
+                <div class="slider_item_tbcell">
+                    <div class="container">
+                        <div class="row" id="scene2">
+
+                            <div class="col-md-7 col-xs-12 animated layer" data-depth="0.50">
+                                <h2> We will solve all types of Computer issues, <span class="slide_clr"> AnyPCproblem </span></h2>
+                                <p>We have been on the market for a long time, working for businesses and now working with the public as well. We can fix all problems that you will encounter with your computer. We also can provide solutions for small businesses such as building Websites or running marketing campaigns. </p>
+                                <div class="slider_btn">
+                                    <a class="slider_btn_one" asp-controller="OurService" asp-action="ourService">Read more</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-xs-12">
+                                <div class="slider_form slideInRight">
+                                    <h3>Tell us your problem and give us the price you would pay</h3>
+                                    <!-- In the form we establish the connection with the form  Index class ContactFormModel model-->
+                                    <form method="post" asp-action="Index" asp-controller="Home">
+                                        <input placeholder="Your Name" type="text" asp-for="Name"/>
+                                        <input placeholder="Email Address" type="text" asp-for="Email"/>
+                                        <input placeholder="Phone" type="text" asp-for="Phone"/>
+                                        <textarea cols="30" rows="10" placeholder="Tell us your problem " type="text" asp-for="Problem"> </textarea>
+                                        <input value="Get A Quote" type="submit">
+                                    </form>
+                                    
+               
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-            
-        </div>
-       
 
+
+    </div>
+
+</div>
 
 
 @RenderBody()
 
 
-
-
-    <!-- Start:Footer Section 
+<!-- Start:Footer Section 
 ==================================================-->
 
 <footer class="footer-section">
@@ -231,19 +241,29 @@
                     <div class="footer_socil">
                         <ul class="list-icons link-list footer_soc">
                             <li>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-behance"></i></a>
+                                <a href="#">
+                                    <i class="fa fa-behance"></i>
+                                </a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
                             </li>
                             <li>
-                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                                <a href="#">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -262,13 +282,17 @@
                             <div class="recent-post-date">
                                 <strong>17</strong> Jun
                             </div>
-                            <h6><a href="#">Loren ipsum dolor consectetur adipiscing elit sed do eiusmod</a></h6>
+                            <h6>
+                                <a href="#">Loren ipsum dolor consectetur adipiscing elit sed do eiusmod</a>
+                            </h6>
                         </li>
                         <li>
                             <div class="recent-post-date">
                                 <strong>17</strong> Jun
                             </div>
-                            <h6><a href="#">Loren ipsum dolor consectetur adipiscing elit sed do eiusmod</a></h6>
+                            <h6>
+                                <a href="#">Loren ipsum dolor consectetur adipiscing elit sed do eiusmod</a>
+                            </h6>
                         </li>
                     </ul>
                 </div>
@@ -294,7 +318,9 @@
                     <p>2016 © Copyright <a href="#">Digital Tech Repair.</a> All rights Reserved.</p>
                 </div>
                 <div class="col-xs-6">
-                    <a class="scrollup" href="#"><span class="fa fa-long-arrow-up"></span></a>
+                    <a class="scrollup" href="#">
+                        <span class="fa fa-long-arrow-up"></span>
+                    </a>
                 </div>
             </div>
             <!-- End:Subfooter -->
@@ -304,13 +330,6 @@
 
 <!-- End:Footer Section 
 ========================================-->
-
-
-
-
-
-
-
 
 
 <!-- Scripts
