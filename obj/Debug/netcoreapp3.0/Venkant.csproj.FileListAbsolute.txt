@@ -146,3 +146,4 @@ C:\Users\Admin\RiderProjects\companyweb\obj\Debug\netcoreapp3.0\Razor\Views\Shar
 C:\Users\Admin\RiderProjects\companyweb\bin\Debug\netcoreapp3.0\MailKit.dll
 C:\Users\Admin\RiderProjects\companyweb\bin\Debug\netcoreapp3.0\MimeKit.dll
 C:\Users\Admin\RiderProjects\companyweb\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+C:\Users\Admin\RiderProjects\companyweb\obj\Debug\netcoreapp3.0\Razor\Views\ContactUs\Contact.cshtml.g.cs
