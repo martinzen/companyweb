@@ -29,14 +29,14 @@ namespace Venkant
             //  reduce a burden on future potential changes, as well as to improve testing capabilities
             EmailServerConfiguration config = new EmailServerConfiguration
             {
-                SmtpPassword = "PASSWORD",
+                SmtpPassword = "zikaking",
                 SmtpServer = "smtp.live.com",
-                SmtpUsername = "EMAIL"
+                SmtpUsername = "zika17b@hotmail.com"
             };
 
             EmailAddress fromEmailAddress = new EmailAddress
             {
-                Address = "EMAIL",
+                Address = "zika17b@hotmail.com",
                 Name = "AnyPcProblem"
             };
 

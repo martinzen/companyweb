@@ -12,18 +12,9 @@ namespace Venkant.Models
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Problem { get; set; }
-    }
-    
-    public class ContactUsFormModel
-    {
-        // model to gather the informaiton from the form 
-        public string Name { get; set; }
-        public string Email { get; set; }
         public string Subject { get; set; }
         public string Message { get; set; }
-        
     }
-
     // model to gather the information for the email and the name 
     public class EmailAddress
     {
