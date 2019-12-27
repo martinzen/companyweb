@@ -73,6 +73,1233 @@
     <Content Remove="wwwroot\Models\MockClientRepository.cs" />
     <Content Remove="Views\Home\Index %28copy%29.cshtml" />
     <Content Remove="Views\Home\Index %28copy%29.cshtml" />
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\.npmignore">
+      <Link>wwwroot\plugins\.npmignore</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css.map">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.css.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css.map">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\css\bootstrap-colorpicker.min.css.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js.map">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.min.js">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.min.js.map">
+      <Link>wwwroot\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.bundle.js">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.bundle.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.bundle.js.map">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.bundle.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.bundle.min.js">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.bundle.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.bundle.min.js.map">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.bundle.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.js">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.js.map">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.min.js">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\bootstrap\js\bootstrap.min.js.map">
+      <Link>wwwroot\plugins\bootstrap\js\bootstrap.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\css\buttons.bootstrap4.css">
+      <Link>wwwroot\plugins\datatables-buttons\css\buttons.bootstrap4.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\css\buttons.bootstrap4.min.css">
+      <Link>wwwroot\plugins\datatables-buttons\css\buttons.bootstrap4.min.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.bootstrap4.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.bootstrap4.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.bootstrap4.min.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.bootstrap4.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.colVis.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.colVis.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.colVis.min.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.colVis.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.flash.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.flash.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.flash.min.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.flash.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.html5.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.html5.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.html5.min.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.html5.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.print.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.print.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\buttons.print.min.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\buttons.print.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\dataTables.buttons.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\dataTables.buttons.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\datatables-buttons\js\dataTables.buttons.min.js">
+      <Link>wwwroot\plugins\datatables-buttons\js\dataTables.buttons.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fastclick\fastclick.js">
+      <Link>wwwroot\plugins\fastclick\fastclick.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\excanvas.js">
+      <Link>wwwroot\plugins\flot-old\excanvas.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\excanvas.min.js">
+      <Link>wwwroot\plugins\flot-old\excanvas.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.colorhelpers.js">
+      <Link>wwwroot\plugins\flot-old\jquery.colorhelpers.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.colorhelpers.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.colorhelpers.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.canvas.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.canvas.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.canvas.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.canvas.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.categories.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.categories.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.categories.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.categories.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.crosshair.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.crosshair.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.crosshair.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.crosshair.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.errorbars.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.errorbars.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.errorbars.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.errorbars.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.fillbetween.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.fillbetween.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.fillbetween.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.fillbetween.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.image.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.image.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.image.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.image.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.navigate.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.navigate.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.navigate.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.navigate.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.pie.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.pie.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.pie.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.pie.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.resize.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.resize.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.resize.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.resize.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.selection.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.selection.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.selection.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.selection.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.stack.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.stack.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.stack.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.stack.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.symbol.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.symbol.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.symbol.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.symbol.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.threshold.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.threshold.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.threshold.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.threshold.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.time.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.time.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\flot-old\jquery.flot.time.min.js">
+      <Link>wwwroot\plugins\flot-old\jquery.flot.time.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-bootstrap\LICENSE.txt">
+      <Link>wwwroot\plugins\fullcalendar-bootstrap\LICENSE.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-bootstrap\main.css">
+      <Link>wwwroot\plugins\fullcalendar-bootstrap\main.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-bootstrap\main.d.ts">
+      <Link>wwwroot\plugins\fullcalendar-bootstrap\main.d.ts</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-bootstrap\main.esm.js">
+      <Link>wwwroot\plugins\fullcalendar-bootstrap\main.esm.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-bootstrap\main.js">
+      <Link>wwwroot\plugins\fullcalendar-bootstrap\main.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-bootstrap\main.min.css">
+      <Link>wwwroot\plugins\fullcalendar-bootstrap\main.min.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-bootstrap\main.min.js">
+      <Link>wwwroot\plugins\fullcalendar-bootstrap\main.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-timegrid\LICENSE.txt">
+      <Link>wwwroot\plugins\fullcalendar-timegrid\LICENSE.txt</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-timegrid\main.css">
+      <Link>wwwroot\plugins\fullcalendar-timegrid\main.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-timegrid\main.d.ts">
+      <Link>wwwroot\plugins\fullcalendar-timegrid\main.d.ts</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-timegrid\main.esm.js">
+      <Link>wwwroot\plugins\fullcalendar-timegrid\main.esm.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-timegrid\main.js">
+      <Link>wwwroot\plugins\fullcalendar-timegrid\main.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-timegrid\main.min.css">
+      <Link>wwwroot\plugins\fullcalendar-timegrid\main.min.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\fullcalendar-timegrid\main.min.js">
+      <Link>wwwroot\plugins\fullcalendar-timegrid\main.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\icheck-bootstrap\icheck-bootstrap.css">
+      <Link>wwwroot\plugins\icheck-bootstrap\icheck-bootstrap.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\icheck-bootstrap\icheck-bootstrap.min.css">
+      <Link>wwwroot\plugins\icheck-bootstrap\icheck-bootstrap.min.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\icheck-bootstrap\LICENSE">
+      <Link>wwwroot\plugins\icheck-bootstrap\LICENSE</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\bindings\inputmask.binding.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\bindings\inputmask.binding.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\dependencyLibs\inputmask.dependencyLib.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\dependencyLibs\inputmask.dependencyLib.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\global\window.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\global\window.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\inputmask.date.extensions.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\inputmask.date.extensions.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\inputmask.extensions.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\inputmask.extensions.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\inputmask.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\inputmask.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\inputmask.numeric.extensions.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\inputmask.numeric.extensions.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\inputmask\jquery.inputmask.js">
+      <Link>wwwroot\plugins\inputmask\inputmask\jquery.inputmask.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\jquery.inputmask.bundle.js">
+      <Link>wwwroot\plugins\inputmask\jquery.inputmask.bundle.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\bindings\inputmask.binding.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\bindings\inputmask.binding.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\dependencyLibs\inputmask.dependencyLib.jqlite.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\dependencyLibs\inputmask.dependencyLib.jquery.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\dependencyLibs\inputmask.dependencyLib.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\dependencyLibs\inputmask.dependencyLib.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\global\window.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\global\window.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\inputmask.date.extensions.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\inputmask.date.extensions.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\inputmask.extensions.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\inputmask.extensions.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\inputmask.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\inputmask.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\inputmask.numeric.extensions.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\inputmask.numeric.extensions.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\inputmask\jquery.inputmask.min.js">
+      <Link>wwwroot\plugins\inputmask\min\inputmask\jquery.inputmask.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\inputmask\min\jquery.inputmask.bundle.min.js">
+      <Link>wwwroot\plugins\inputmask\min\jquery.inputmask.bundle.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\.editorconfig">
+      <Link>wwwroot\plugins\ion-rangeslider\.editorconfig</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\css\ion.rangeSlider.css">
+      <Link>wwwroot\plugins\ion-rangeslider\css\ion.rangeSlider.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\css\ion.rangeSlider.min.css">
+      <Link>wwwroot\plugins\ion-rangeslider\css\ion.rangeSlider.min.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\js\ion.rangeSlider.js">
+      <Link>wwwroot\plugins\ion-rangeslider\js\ion.rangeSlider.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\js\ion.rangeSlider.min.js">
+      <Link>wwwroot\plugins\ion-rangeslider\js\ion.rangeSlider.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\irs.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\irs.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\skins\big.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\skins\big.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\skins\flat.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\skins\flat.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\skins\modern.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\skins\modern.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\skins\round.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\skins\round.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\skins\sharp.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\skins\sharp.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\skins\square.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\skins\square.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\_base.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\_base.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\ion-rangeslider\less\_mixins.less">
+      <Link>wwwroot\plugins\ion-rangeslider\less\_mixins.less</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locales.js">
+      <Link>wwwroot\plugins\moment\locales.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locales.min.js">
+      <Link>wwwroot\plugins\moment\locales.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\af.js">
+      <Link>wwwroot\plugins\moment\locale\af.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ar-dz.js">
+      <Link>wwwroot\plugins\moment\locale\ar-dz.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ar-kw.js">
+      <Link>wwwroot\plugins\moment\locale\ar-kw.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ar-sa.js">
+      <Link>wwwroot\plugins\moment\locale\ar-sa.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ar-tn.js">
+      <Link>wwwroot\plugins\moment\locale\ar-tn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\az.js">
+      <Link>wwwroot\plugins\moment\locale\az.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\be.js">
+      <Link>wwwroot\plugins\moment\locale\be.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\bg.js">
+      <Link>wwwroot\plugins\moment\locale\bg.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\bm.js">
+      <Link>wwwroot\plugins\moment\locale\bm.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\bs.js">
+      <Link>wwwroot\plugins\moment\locale\bs.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ca.js">
+      <Link>wwwroot\plugins\moment\locale\ca.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\cs.js">
+      <Link>wwwroot\plugins\moment\locale\cs.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\cy.js">
+      <Link>wwwroot\plugins\moment\locale\cy.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\da.js">
+      <Link>wwwroot\plugins\moment\locale\da.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\de-at.js">
+      <Link>wwwroot\plugins\moment\locale\de-at.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\de-ch.js">
+      <Link>wwwroot\plugins\moment\locale\de-ch.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\de.js">
+      <Link>wwwroot\plugins\moment\locale\de.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\dv.js">
+      <Link>wwwroot\plugins\moment\locale\dv.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\el.js">
+      <Link>wwwroot\plugins\moment\locale\el.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\en-au.js">
+      <Link>wwwroot\plugins\moment\locale\en-au.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\en-ca.js">
+      <Link>wwwroot\plugins\moment\locale\en-ca.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\en-il.js">
+      <Link>wwwroot\plugins\moment\locale\en-il.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\en-nz.js">
+      <Link>wwwroot\plugins\moment\locale\en-nz.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\es-do.js">
+      <Link>wwwroot\plugins\moment\locale\es-do.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\es-us.js">
+      <Link>wwwroot\plugins\moment\locale\es-us.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\et.js">
+      <Link>wwwroot\plugins\moment\locale\et.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\eu.js">
+      <Link>wwwroot\plugins\moment\locale\eu.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\fa.js">
+      <Link>wwwroot\plugins\moment\locale\fa.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\fi.js">
+      <Link>wwwroot\plugins\moment\locale\fi.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\fr-ch.js">
+      <Link>wwwroot\plugins\moment\locale\fr-ch.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\fr.js">
+      <Link>wwwroot\plugins\moment\locale\fr.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\fy.js">
+      <Link>wwwroot\plugins\moment\locale\fy.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ga.js">
+      <Link>wwwroot\plugins\moment\locale\ga.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\gd.js">
+      <Link>wwwroot\plugins\moment\locale\gd.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\gl.js">
+      <Link>wwwroot\plugins\moment\locale\gl.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\gom-latn.js">
+      <Link>wwwroot\plugins\moment\locale\gom-latn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\gu.js">
+      <Link>wwwroot\plugins\moment\locale\gu.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\he.js">
+      <Link>wwwroot\plugins\moment\locale\he.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\hi.js">
+      <Link>wwwroot\plugins\moment\locale\hi.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\hr.js">
+      <Link>wwwroot\plugins\moment\locale\hr.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\id.js">
+      <Link>wwwroot\plugins\moment\locale\id.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\is.js">
+      <Link>wwwroot\plugins\moment\locale\is.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ja.js">
+      <Link>wwwroot\plugins\moment\locale\ja.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\jv.js">
+      <Link>wwwroot\plugins\moment\locale\jv.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ka.js">
+      <Link>wwwroot\plugins\moment\locale\ka.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\kk.js">
+      <Link>wwwroot\plugins\moment\locale\kk.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\km.js">
+      <Link>wwwroot\plugins\moment\locale\km.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\kn.js">
+      <Link>wwwroot\plugins\moment\locale\kn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ko.js">
+      <Link>wwwroot\plugins\moment\locale\ko.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ku.js">
+      <Link>wwwroot\plugins\moment\locale\ku.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ky.js">
+      <Link>wwwroot\plugins\moment\locale\ky.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\lb.js">
+      <Link>wwwroot\plugins\moment\locale\lb.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\lo.js">
+      <Link>wwwroot\plugins\moment\locale\lo.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\lv.js">
+      <Link>wwwroot\plugins\moment\locale\lv.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\me.js">
+      <Link>wwwroot\plugins\moment\locale\me.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\mk.js">
+      <Link>wwwroot\plugins\moment\locale\mk.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\mn.js">
+      <Link>wwwroot\plugins\moment\locale\mn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\mr.js">
+      <Link>wwwroot\plugins\moment\locale\mr.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ms-my.js">
+      <Link>wwwroot\plugins\moment\locale\ms-my.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ms.js">
+      <Link>wwwroot\plugins\moment\locale\ms.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\my.js">
+      <Link>wwwroot\plugins\moment\locale\my.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\nb.js">
+      <Link>wwwroot\plugins\moment\locale\nb.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ne.js">
+      <Link>wwwroot\plugins\moment\locale\ne.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\nl.js">
+      <Link>wwwroot\plugins\moment\locale\nl.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\nn.js">
+      <Link>wwwroot\plugins\moment\locale\nn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\pa-in.js">
+      <Link>wwwroot\plugins\moment\locale\pa-in.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\pl.js">
+      <Link>wwwroot\plugins\moment\locale\pl.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\pt-br.js">
+      <Link>wwwroot\plugins\moment\locale\pt-br.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\pt.js">
+      <Link>wwwroot\plugins\moment\locale\pt.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ru.js">
+      <Link>wwwroot\plugins\moment\locale\ru.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\sd.js">
+      <Link>wwwroot\plugins\moment\locale\sd.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\se.js">
+      <Link>wwwroot\plugins\moment\locale\se.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\si.js">
+      <Link>wwwroot\plugins\moment\locale\si.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\sl.js">
+      <Link>wwwroot\plugins\moment\locale\sl.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\sq.js">
+      <Link>wwwroot\plugins\moment\locale\sq.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\sr-cyrl.js">
+      <Link>wwwroot\plugins\moment\locale\sr-cyrl.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\sv.js">
+      <Link>wwwroot\plugins\moment\locale\sv.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ta.js">
+      <Link>wwwroot\plugins\moment\locale\ta.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\te.js">
+      <Link>wwwroot\plugins\moment\locale\te.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\tg.js">
+      <Link>wwwroot\plugins\moment\locale\tg.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\th.js">
+      <Link>wwwroot\plugins\moment\locale\th.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\tl-ph.js">
+      <Link>wwwroot\plugins\moment\locale\tl-ph.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\tlh.js">
+      <Link>wwwroot\plugins\moment\locale\tlh.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\tzl.js">
+      <Link>wwwroot\plugins\moment\locale\tzl.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\tzm-latn.js">
+      <Link>wwwroot\plugins\moment\locale\tzm-latn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\tzm.js">
+      <Link>wwwroot\plugins\moment\locale\tzm.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\ug-cn.js">
+      <Link>wwwroot\plugins\moment\locale\ug-cn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\uk.js">
+      <Link>wwwroot\plugins\moment\locale\uk.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\uz-latn.js">
+      <Link>wwwroot\plugins\moment\locale\uz-latn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\uz.js">
+      <Link>wwwroot\plugins\moment\locale\uz.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\vi.js">
+      <Link>wwwroot\plugins\moment\locale\vi.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\x-pseudo.js">
+      <Link>wwwroot\plugins\moment\locale\x-pseudo.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\yo.js">
+      <Link>wwwroot\plugins\moment\locale\yo.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\zh-cn.js">
+      <Link>wwwroot\plugins\moment\locale\zh-cn.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\zh-hk.js">
+      <Link>wwwroot\plugins\moment\locale\zh-hk.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\locale\zh-tw.js">
+      <Link>wwwroot\plugins\moment\locale\zh-tw.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\moment-with-locales.js">
+      <Link>wwwroot\plugins\moment\moment-with-locales.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\moment-with-locales.min.js">
+      <Link>wwwroot\plugins\moment\moment-with-locales.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\moment\moment.min.js">
+      <Link>wwwroot\plugins\moment\moment.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\overlayScrollbars\css\OverlayScrollbars.css">
+      <Link>wwwroot\plugins\overlayScrollbars\css\OverlayScrollbars.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\overlayScrollbars\css\OverlayScrollbars.min.css">
+      <Link>wwwroot\plugins\overlayScrollbars\css\OverlayScrollbars.min.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\overlayScrollbars\js\jquery.overlayScrollbars.js">
+      <Link>wwwroot\plugins\overlayScrollbars\js\jquery.overlayScrollbars.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\overlayScrollbars\js\jquery.overlayScrollbars.min.js">
+      <Link>wwwroot\plugins\overlayScrollbars\js\jquery.overlayScrollbars.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\overlayScrollbars\js\OverlayScrollbars.js">
+      <Link>wwwroot\plugins\overlayScrollbars\js\OverlayScrollbars.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\overlayScrollbars\js\OverlayScrollbars.min.js">
+      <Link>wwwroot\plugins\overlayScrollbars\js\OverlayScrollbars.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\pace.js">
+      <Link>wwwroot\plugins\pace-progress\pace.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\pace.min.js">
+      <Link>wwwroot\plugins\pace-progress\pace.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\black\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\black\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\blue\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\blue\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\green\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\green\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\orange\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\orange\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\pink\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\pink\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\purple\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\purple\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\red\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\red\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\silver\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\silver\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\white\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\white\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-barber-shop.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-barber-shop.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-big-counter.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-big-counter.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-bounce.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-bounce.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-center-atom.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-center-atom.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-center-circle.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-center-circle.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-center-radar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-center-radar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-center-simple.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-center-simple.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-corner-indicator.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-corner-indicator.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-fill-left.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-fill-left.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-flash.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-flash.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-flat-top.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-flat-top.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-loading-bar.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-loading-bar.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-mac-osx.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-mac-osx.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-material.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-material.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\pace-progress\themes\yellow\pace-theme-minimal.css">
+      <Link>wwwroot\plugins\pace-progress\themes\yellow\pace-theme-minimal.css</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper-utils.js">
+      <Link>wwwroot\plugins\popper\esm\popper-utils.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper-utils.js.map">
+      <Link>wwwroot\plugins\popper\esm\popper-utils.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper-utils.min.js">
+      <Link>wwwroot\plugins\popper\esm\popper-utils.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper-utils.min.js.map">
+      <Link>wwwroot\plugins\popper\esm\popper-utils.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper.js">
+      <Link>wwwroot\plugins\popper\esm\popper.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper.js.map">
+      <Link>wwwroot\plugins\popper\esm\popper.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper.min.js">
+      <Link>wwwroot\plugins\popper\esm\popper.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\esm\popper.min.js.map">
+      <Link>wwwroot\plugins\popper\esm\popper.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper-utils.js">
+      <Link>wwwroot\plugins\popper\popper-utils.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper-utils.js.map">
+      <Link>wwwroot\plugins\popper\popper-utils.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper-utils.min.js">
+      <Link>wwwroot\plugins\popper\popper-utils.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper-utils.min.js.map">
+      <Link>wwwroot\plugins\popper\popper-utils.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper.js">
+      <Link>wwwroot\plugins\popper\popper.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper.js.map">
+      <Link>wwwroot\plugins\popper\popper.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper.min.js">
+      <Link>wwwroot\plugins\popper\popper.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\popper.min.js.map">
+      <Link>wwwroot\plugins\popper\popper.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper-utils.js">
+      <Link>wwwroot\plugins\popper\umd\popper-utils.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper-utils.js.map">
+      <Link>wwwroot\plugins\popper\umd\popper-utils.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper-utils.min.js">
+      <Link>wwwroot\plugins\popper\umd\popper-utils.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper-utils.min.js.map">
+      <Link>wwwroot\plugins\popper\umd\popper-utils.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper.js">
+      <Link>wwwroot\plugins\popper\umd\popper.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper.js.flow">
+      <Link>wwwroot\plugins\popper\umd\popper.js.flow</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper.js.map">
+      <Link>wwwroot\plugins\popper\umd\popper.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper.min.js">
+      <Link>wwwroot\plugins\popper\umd\popper.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\popper\umd\popper.min.js.map">
+      <Link>wwwroot\plugins\popper\umd\popper.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master 2\plugins\sparklines\sparkline.js">
+      <Link>wwwroot\plugins\sparklines\sparkline.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master\dist\js\adminlte.js">
+      <Link>wwwroot\js\adminlte.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master\dist\js\adminlte.js.map">
+      <Link>wwwroot\js\adminlte.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master\dist\js\adminlte.min.js">
+      <Link>wwwroot\js\adminlte.min.js</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master\dist\js\adminlte.min.js.map">
+      <Link>wwwroot\js\adminlte.min.js.map</Link>
+    </Content>
+    <Content Include="..\..\..\Downloads\AdminLTE-master\dist\js\demo.js">
+      <Link>wwwroot\js\demo.js</Link>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Condition="'$(ExcludeConfigFilesFromBuildOutput)'=='true'" Update="wwwroot\Properties\launchSettings.json">

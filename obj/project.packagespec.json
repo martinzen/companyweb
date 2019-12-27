@@ -1,19 +1,18 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\companyweb\\Venkant.csproj",
+    "projectUniqueName": "/Users/martin/Documents/GitHub/companyweb/Venkant.csproj",
     "projectName": "Venkant",
-    "projectPath": "C:\\Users\\Admin\\RiderProjects\\companyweb\\Venkant.csproj",
-    "outputPath": "C:\\Users\\Admin\\RiderProjects\\companyweb\\obj\\",
+    "projectPath": "/Users/martin/Documents/GitHub/companyweb/Venkant.csproj",
+    "outputPath": "/Users/martin/Documents/GitHub/companyweb/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -57,7 +56,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100-preview3-014645/RuntimeIdentifierGraph.json"
     }
   }
 }
