@@ -1,2 +1,5 @@
 # Default ignored files
 /.idea.Venkant.dir/.idea/workspace.xml
+# Datasource local storage ignored files
+/.idea.companyweb.dir/.idea/dataSources.local.xml
+/.idea.companyweb.dir/.idea/dataSources/
